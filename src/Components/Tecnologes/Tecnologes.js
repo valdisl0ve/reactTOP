@@ -1,8 +1,8 @@
-
+import './Tecnologes.css'
 
 function Tecnologes() {
   return(
-      <ul>
+  <ul>
     <li>HTML</li>
     <li>CSS</li>
     <li>JavaScript</li>

@@ -6,10 +6,9 @@ import Tecnologes from "./Components/Tecnologes/Tecnologes";
 function App() {
   return (
     <div className="App">
-      <NavPan />
-       //awoihagfhafa
-      <Tecnologes />
-    </div> 
+        <NavPan />
+        <Tecnologes />
+     </div>
   );
 }
 
