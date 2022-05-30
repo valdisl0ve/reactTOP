@@ -1,22 +1,15 @@
 import './NavPan.css';
+import LogoBar from "../Logo_bar/logo_bar";
+import loginBox from "../Login_box/login_box";
+import NavBox from "../Nav_box/Nav_box";
 
 
 function NavPan(){
   return(
   <div className="nav">
-    <div className="Logo_box">
-      <img width='120' src="https://img.artlebedev.ru/everything/helper-sew/helper-sew.png" alt="логотип"/>
-    </div>
-    <div className="Nav_box">
-      <a href="">Состояние Станции</a>
-      <a href=""></a>
-      <a href="">Контакты </a>
-      <a href=""> Магазин</a>
-    </div>
-    <div className="Login_box">
-      <button class="button-9" role="button">Войти в сеть</button>
-    </div>
-
+    <LogoBar />
+    <NavBox />
+    <loginBox />
   </div>
   );
 }
