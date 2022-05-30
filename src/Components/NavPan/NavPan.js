@@ -1,7 +1,8 @@
 import './NavPan.css';
 import LogoBar from "../Logo_bar/logo_bar";
-import loginBox from "../Login_box/login_box";
+import LoginBox from "../Login_box/login_box";
 import NavBox from "../Nav_box/Nav_box";
+
 
 
 function NavPan(){
@@ -9,7 +10,7 @@ function NavPan(){
   <div className="nav">
     <LogoBar />
     <NavBox />
-    <loginBox />
+    <LoginBox />
   </div>
   );
 }

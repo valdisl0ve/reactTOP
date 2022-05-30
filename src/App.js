@@ -7,13 +7,13 @@ import React from "react";
 
 function App() {
   return (
-      <browserRouter>
+
     <div className="App">
         <NavPan />
         <Tecnologes />
 
      </div>
-      </browserRouter>
+
   );
 }
 

@@ -2,14 +2,14 @@ import './Login_box.css';
 
 
 
-function loginBox(){
+function LoginBox(){
   return(
 
     <div className="Login_box">
-      <button class="button-9" role="button">Войти в сеть</button>
+      <button className="button-9" role="button">Войти в сеть</button>
     </div> 
 
   );
 }
 
-export default loginBox;
+export default LoginBox;

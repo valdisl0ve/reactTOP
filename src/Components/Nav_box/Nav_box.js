@@ -1,4 +1,5 @@
 import './Nav_box.css';
+import {NavLink, Router} from "react-router-dom";
 
 
 
@@ -6,9 +7,7 @@ import './Nav_box.css';
 function NavBox(){
   return(
     <div className="Nav_box">
-   {/*     <Router >
-            <NavLink to={'/test'}>123</NavLink>
-        </Router>*/}
+123
     </div>
 
   );
