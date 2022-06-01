@@ -11,7 +11,7 @@ function App() {
 
     <div className="App">
         <NavPan />
-
+111
         <BrowserRouter>
                 <Routes>
                     <Route path="/main/*" element={<Tecnologes />}/>
