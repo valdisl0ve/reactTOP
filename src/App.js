@@ -2,15 +2,23 @@ import logo from './logo.svg';
 import './App.css';
 import NavPan from "./Components/NavPan/NavPan";
 import Tecnologes from "./Components/Tecnologes/Tecnologes";
-import React from "react";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+
 
 
 function App() {
   return (
 
     <div className="App">
-        <NavPan />
-        <Tecnologes />
+
+
+        <BrowserRouter>
+            <NavPan />
+                <Routes>
+                    <Route path="/main/*" element={<Tecnologes />}/>
+                    <Route path="/about/*" element={<div><p>Я в эбауте</p></div>}/>
+                </Routes>
+        </BrowserRouter>
 
      </div>
 
