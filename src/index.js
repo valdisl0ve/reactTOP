@@ -5,9 +5,34 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+
+
+let obj={
+  'food':2,
+  'whater':3,
+  'suplices':12
+
+}
+
+let personal={
+  'mechsnics':2,
+  'workers':3,
+}
+
+
+
+function send(NewText){
+  obj[NewText]=10;
+  console.log(obj)
+}
+
+
+
+
 root.render(
   <React.StrictMode>
-        <App />
+        <App obj={obj} personal={personal} call={send}/>
   </React.StrictMode>
 );
 
